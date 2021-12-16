@@ -21,7 +21,7 @@ I heard about RSSchool and I became interested in how the course is conducted. I
 * Figma, Avocode
 
 ## Code Example
-```
+```javascript
 function finalGrade (exam, projects) {
   if(exam>90 || projects>10)
     return 100;
@@ -42,5 +42,5 @@ Belarusian State University of Informatics and Radioelectronics
 + RS-School (front-end development, in progress)
 
 ## Languages
-Russian - Native
-English - A2 
+* **Russian** - Native
+* **English** - A2 
