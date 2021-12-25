@@ -153,8 +153,23 @@ body{
 .project__title{
   margin: 0;
   text-align: center;
+  font-weight: 300;
 }
 
+.footer{
+  background: #161b25;
+  padding: 20px 0;
+  margin-top: 30px;
+}
+
+.footer__year{
+  color: #fff;
+  align-self: center;
+}
+.github__img, .logo__img{
+  width: auto;
+  height: 32px;
+}
 .code .keyword{color: #a626a4;}
 .code .function{color: #4078f2;}
 .code .params{color: #383a42;}
