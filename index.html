@@ -1,13 +1,147 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>CV - Gleb Roskin</title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header class="header">
+      <div class="container">
+        <div class="flex">
+          <div class="header__name name">
+            <h1>Roskin Gleb</h1>
+            <p>Front-End Developer</p>
+          </div>
+          <div class="header__avatar avatar">
+            <img class="avatar__img" src="" alt="avatar">
+          </div>
+          <div class="header__contacts contacts">
+            <ul class="contacts__items">
+              <li class="contacts__item contacts__item--email">E-mail: <a href="">gleoros@gmail.com</a></li>
+              <li class="contacts__item contacts__item--discord">Discord: rincewizz#8866</li>
+              <li class="contacts__item contacts__item--github">GitHub: <a href="">rincewizz</a></li>
+            </ul>
+          </div>
+          <nav class="header__menu menu">
+            <ul class="menu__items">
+              <li class="menu__item">about-me</li>
+              <li class="menu__item">skills</li>
+              <li class="menu__item">code example</li>
+              <li class="menu__item">education</li>
+              <li class="menu__item">languages</li>
+              <li class="menu__item">projects</li>
+            </ul>
+          </nav>
+        </div>
+
+      </div>
+
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="flex">
+          <section class="section__about-me about-me">
+            <h2 class="section__title about-me__title">about-me</h2>
+            <p>
+              I heard about RSSchool and I became interested in how the course is conducted. I am working as a freelancer now. My goal is to improve my JavaScript skills and develop new skills. Also I would like to work in a team.
+            </p>
+          </section>
+
+          <section class="section__skills skills">
+            <h2 class="section__title skills__title">skills</h2>
+            <ul class="skills__items">
+              <li class="skills__item">HTML5</li>
+              <li class="skills__item">CSS3/SCSS</li>
+              <li class="skills__item">JavaScript</li>
+              <li class="skills__item">Python</li>
+              <li class="skills__item">PHP</li>
+              <li class="skills__item">Git</li>
+              <li class="skills__item">DB (Mysql/MariaDB)</li>
+              <li class="skills__item">Linux</li>
+              <li class="skills__item">Figma, Avocode</li>
+            </ul>
+          </section>
+
+          <section class="section__code code">
+            <h2 class="section__title code__title">acode example</h2>
+            <pre>
+              <code>
+                function findMissing(arr1, arr2) {
+                  arr2.sort();
+                  for(let i=0; i<=arr1.sort().length; i++){
+                    if(arr1[i]!=arr2[i]) return arr1[i];
+                  }
+                }
+              </code>
+            </pre>
+          </section>
+
+          <section class="section__education education">
+            <h2 class="section__title education__title">education</h2>
+            <h3 class="section__subtitle">Higher</h3>
+              <ul class="education__items">
+                <li class="education__item">Belarusian State University of Informatics and Radioelectronics</li>
+              </ul>
+            <h3 class="section__subtitle">Courses</h3>
+              <ul class="education__items">
+                <li class="education__item">FreeCodeCamp</li>
+                <li class="education__item">RS-School (front-end development, in progress)</li>
+              </ul>
+          </section>
+
+          <section class="section__languages languages">
+            <h2 class="section__title languages__title">languages</h2>
+            <ul class="languages__items">
+              <li class="language__item">Russian - Native</li>
+              <li class="language__item">English - A1</li>
+            </ul>
+          </section>
+
+          <section class="section__projects projects">
+            <h2 class="section__title projects__title">projects</h2>
+            <div class="projects__item project">
+              <a href="" class="project__link">
+                <img src="#" alt="" class="project__img">
+                <h3 class="project__title">Project 1</h3>
+              </a>
+            </div>
+            <div class="projects__item project">
+              <a href="" class="project__link">
+                <img src="#" alt="" class="project__img">
+                <h3 class="project__title">Project 2</h3>
+              </a>
+            </div>
+            <div class="projects__item project">
+              <a href="" class="project__link">
+                <img src="#" alt="" class="project__img">
+                <h3 class="project__title">Project 3</h3>
+              </a>
+            </div>
+          </section>
+        </div>
+      </div>
+
+
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="flex">
+          <div class="footer__github github">
+            <a class="github__link" href="#">
+              <img src="" alt="My GitHub" class="github__logo">
+            </a>
+          </div>
+          <div class="footer__year year">2022</div>
+          <div class="footer__logo logo">
+            <a class="logo__link" href="">
+              <img class="logo__img" src="" alt="logo">  
+            </a>
+            
+          </div>
+        </div>
+      </div>
+
+    </footer>
   </body>
 </html>
