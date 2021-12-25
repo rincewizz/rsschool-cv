@@ -4,38 +4,54 @@
     <meta charset="utf-8">
     <title>CV - Gleb Roskin</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class="header">
       <div class="container">
         <div class="flex">
           <div class="header__name name">
-            <h1>Roskin Gleb</h1>
-            <p>Front-End Developer</p>
+            <h1 class="header__title"><div class="header__title-color header__title-color--black">Roskin</div><div class="header__title-color header__title-color--white">Gleb</div></h1>
+            <p class="header__dev">Front-End Developer</p>
           </div>
           <div class="header__avatar avatar">
-            <img class="avatar__img" src="" alt="avatar">
+            <img class="avatar__img" src="img/avatar.jpg" alt="avatar">
           </div>
           <div class="header__contacts contacts">
             <ul class="contacts__items">
-              <li class="contacts__item contacts__item--email">E-mail: <a href="">gleoros@gmail.com</a></li>
-              <li class="contacts__item contacts__item--discord">Discord: rincewizz#8866</li>
-              <li class="contacts__item contacts__item--github">GitHub: <a href="">rincewizz</a></li>
+              <li class="contacts__item contacts__item--email"><b>E-mail:</b><br> <a class="contacts__link" href="">gleoros@gmail.com</a></li>
+              <li class="contacts__item contacts__item--discord"><b>Discord:</b><br> rincewizz#8866</li>
+              <li class="contacts__item contacts__item--github"><b>GitHub:</b><br> <a class="contacts__link" href="">rincewizz</a></li>
             </ul>
           </div>
-          <nav class="header__menu menu">
-            <ul class="menu__items">
-              <li class="menu__item">about-me</li>
-              <li class="menu__item">skills</li>
-              <li class="menu__item">code example</li>
-              <li class="menu__item">education</li>
-              <li class="menu__item">languages</li>
-              <li class="menu__item">projects</li>
-            </ul>
-          </nav>
         </div>
-
       </div>
+      <nav class="header__menu menu">
+        <div class="container">
+          <ul class="menu__items">
+            <li class="menu__item">
+              <a href="#" class="menu__link">about-me</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">skills</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">code example</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">education</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">languages</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">projects</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
     </header>
     <main class="main">
