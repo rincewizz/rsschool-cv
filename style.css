@@ -66,6 +66,7 @@ section:target {
 }
 .header__title-color{
   padding: 0 10px;
+  display: block;
 }
 .header__title-color--black{
   color: #161b25;
