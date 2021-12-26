@@ -1,8 +1,36 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
   margin: 0;
   padding: 0;
   font-family: Poppins;
   color: #555555;
+}
+a{
+  transition: .4s color;
+}
+a:hover{
+  color: #ffcc01;
+}
+
+@keyframes bg-change {
+  0% { 
+    background: #fff;
+    box-shadow: none; 
+  }
+  50% { 
+    background: #fff4c6;
+    box-shadow: 0px 0px 20px 10px #fff4c6; 
+  }
+  100% { 
+    background: #fff;
+    box-shadow: none;
+  }
+}
+
+section:target {
+  animation: bg-change 2s;
 }
 
 .header{
@@ -105,7 +133,9 @@ body{
 .menu__link{
   color: #fff;
   text-decoration: none;
+  text-transform: capitalize;
 }
+
 .main{
   padding-top: 50px;
 }
