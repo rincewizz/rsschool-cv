@@ -33,3 +33,14 @@ function finalGrade (exam, projects) {
     return 0;
 }
 ```
+
+## Education
+Belarusian State University of Informatics and Radioelectronics
+
+## Courses
++ FreeCodeCamp
++ RS-School (front-end development, in progress)
+
+## Languages
+Russian - Native
+English - A1 
